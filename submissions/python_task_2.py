@@ -58,8 +58,7 @@ def calculate_toll_rate(df):
     Returns:
         pandas.DataFrame
     """
-    # Placeholder logic, replace it with your own toll rate calculation logic
-    df['toll_rate'] = df['distance'] * 0.1  # Replace this line with your actual toll rate calculation
+    df['toll_rate'] = df['distance'] * 0.1 
     return df
 
 
@@ -73,8 +72,8 @@ def calculate_time_based_toll_rates(df):
     Returns:
         pandas.DataFrame
     """
-    # Placeholder logic, replace it with your own time-based toll rate calculation logic
-    df['time_based_toll'] = df['distance'] * 0.05  # Replace this line with your actual time-based toll rate calculation
+
+    df['time_based_toll'] = df['distance'] * 0.05  
     return df
 
 
